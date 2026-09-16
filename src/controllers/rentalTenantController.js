@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const RentalTenant = require("../models/RentalTenant");
+const RentalTenant = require("../models/rentaltenant");
 const RentalBooking = require("../models/rentalBooking");
 
 const requireTenant = (req, res) => {
